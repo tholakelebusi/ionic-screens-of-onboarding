@@ -1,0 +1,7 @@
+{
+  "name": "onBoardDesign",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
