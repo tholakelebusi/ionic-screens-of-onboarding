@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<button routerLink="/home" >
+  <ion-icon name="home" ></ion-icon>
+</button>
+<ion-content>
+  <form class="text-center border border-light p-5">
+
+    <h2>Sign in</h2>
+
+
+    <div class="fields">
+      <ion-label color="primary">Email</ion-label>
+      <input [(ngModel)]="email" name="email" type="text" matInput required>
+    </div>
+                <div class="fields">
+                  <ion-label color="primary">Password</ion-label>
+    
+                  <input [(ngModel)]="password" name="password" type="string" matInput required >
+    </div>
+    
+
+
+
+
+    <div>
+
+
+    
+
+        <ion-button (click)="login()" color="dark"  routerLink="">Submit
+        </ion-button>
+
+    </div>
+    <div class="resetLink">
+      <a routerLink="/resert">Forgot password?</a>
+    </div>
+
+
+
+
+
+    <p>
+      <a routerLink="/register">Not a member</a>
+    </p>
+
+
+
+  </form>
+</ion-content>

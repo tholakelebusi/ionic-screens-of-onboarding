@@ -4,6 +4,14 @@
 
 export const environment = {
   production: false,
+  firebaseConfigs:{
+    apiKey: "AIzaSyDNFK3Co38Lb58jHyKWC_hHCaBB4Cys__Q",
+    authDomain: "ionicslides-f485f.firebaseapp.com",
+    projectId: "ionicslides-f485f",
+    storageBucket: "ionicslides-f485f.appspot.com",
+    messagingSenderId: "1047217976761",
+    appId: "1:1047217976761:web:6f490c2a26aa9115aab268"
+  },
   firebaseConfig:{
     apiKey: "AIzaSyDNFK3Co38Lb58jHyKWC_hHCaBB4Cys__Q",
     authDomain: "ionicslides-f485f.firebaseapp.com",

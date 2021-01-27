@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "ionicslides-f485f"
+  },
+  "targets": {
+    "ionicslides-f485f": {
+      "hosting": {
+        "app": [
+          "ionicslides-f485f"
+        ]
+      }
+    }
   }
 }

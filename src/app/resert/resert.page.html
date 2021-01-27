@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Reset Password</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form  #f="ngForm" (ngSubmit)="onSubmit(f.value)" >
+
+
+	
+    <div>
+    <label>Email</label>
+      <input 
+       id="email"
+      name="email"
+      ngModel
+      #email="ngModel" placeholder="Email Address"
+      required>
+  </div>
+  
+    
+    
+      <div>
+
+    <ion-button (click)="forgotPassword(email.value)" color="dark">Submit
+    </ion-button>
+    </div>
+  </form>
+</ion-content>

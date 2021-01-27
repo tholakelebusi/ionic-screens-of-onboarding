@@ -27,7 +27,7 @@ this.onbordslide=[
 {
   title:'Book Lover',
   img:'pic2',
-  description:'Always have a book on desk.'
+  description:'Always have a book on your desk.'
 },
 {
   title:'Book Lover',

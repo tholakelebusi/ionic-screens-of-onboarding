@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<button routerLink="/home" >
+  <ion-icon name="home" ></ion-icon>
+</button>
+<ion-content>
+		<form>
+			<h2>Registration Form</h2>
+		
+
+				<div class="fields">
+				
+          <ion-label color="primary">First Name</ion-label>
+					<input [(ngModel)]="name" name="name" type="string" matInput required >
+</div>
+
+					<div class="fields">
+            <ion-label color="primary">Last Name</ion-label>
+						<input [(ngModel)]="surname" name="surname"  type="string" matInput required >
+</div>
+
+
+
+<div class="fields">
+  <ion-label color="primary">Age</ion-label>
+	<input [(ngModel)]="age" name="age" type="text" matInput required>
+</div>
+<div class="fields">
+  <ion-label color="primary">Cell number</ion-label>
+	<input [(ngModel)]="cellNo" name="cellNo" type="number" matInput required>
+</div>
+
+
+
+<div class="fields">
+  <ion-label color="primary">Email</ion-label>
+	<input [(ngModel)]="email" name="email" type="text" matInput required>
+</div>
+						<div class="fields">
+						  <ion-label color="primary">Password</ion-label>
+
+							<input [(ngModel)]="password" name="password" type="string" matInput required >
+</div>
+
+
+<ion-button (click)="signUp()" color="dark">Submit
+</ion-button>
+
+						
+							<p>
+								<a routerLink="/login" >Already a Member</a>
+								</p> 
+
+		</form>
+</ion-content>
